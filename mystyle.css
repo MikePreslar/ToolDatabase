@@ -1,11 +1,27 @@
 body {
     background-color: orange;
 }
-  .button {
+/*  .button {
     width: 100px;
     height: 40px;
     margin: 50 auto;
     position: center;
     border-radius: 16px;
     background-color: orangered;
+*/
+    button {
+      border-radius: 5px;
+      color: balck;
+      background-color: orange;
+      padding: 5px 10px 8px 10px;
+    }
+  
+    button:hover {
+      animation-name: background-color;
+      animation-duration: 500ms;
+    }
+    @keyframes background-color{
+      100%{background-color: orangered;}
+  
+    }
   }
